@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.content-container {
+  /* margin-top: 125px; */
+  padding-top: 75px;
+}
+
+/* ############## Nav-Bar ########## */
+
+/* nav.navbar-default.navbar-fixed-top {
+  padding-bottom: 25px;
+} */
+
+.navbar-brand {
+  font-weight: 900;
+  font-size: 1.9em;
+  height: 25px;
+}
+
+nav li {
+  font-weight: 300;
+}
+
+/* ############## About ########## */
+
+/* .about_banner {
+  margin-top: 0;
+  padding: 0;
+  width: 100%;
+  background: linear-gradient(
+    to right,
+    rgba(191, 191, 191, 0.025),
+    rgba(191, 191, 191, 0.05),
+    rgba(191, 191, 191, 0.1),
+    rgba(191, 191, 191, 0.2),
+    rgba(191, 191, 191, 0.4),
+    rgba(191, 191, 191, 0.9),
+    rgba(191, 191, 191, 1),
+    rgba(191, 191, 191, 0.9),
+    rgba(191, 191, 191, 0.5),
+    rgba(191, 191, 191, 0.1),
+    rgba(191, 191, 191, 0.025)
+  );
+  height: 275px;
+} */
+
+.main-content {
+  margin-top: 200px;
+}
+
+.icon {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+/* ############## Jumbotron ########## */
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: #eee;
+  text-decoration: none;
+}
+
+/* ############## Social ########## */
+
+.icon {
+  text-align: center;
+}
+.icon a {
+  color: #777;
+  font-weight: 100;
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  transition: background-color 0.5s ease-in;
+}
+
+.icon a:hover {
+  background-color: #777;
+  color: #eee;
+}
+
+/* ############## Experience ########## */
+
+div.col-md-10.xp_items,
+div.col-md-5.xp_headings_details,
+h4.xp_heading_details,
+h5.xp_subheading {
+  text-align: right;
+  font-weight: 400;
+}
+
+/* ############## Footer ########## */
+
+footer.footer {
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  padding-left: 15px;
+  padding-top: 40px;
+}
+
+.col-md-12.footer_divider {
+  width: 100%;
+  height: 2px;
+  margin-right: 15px;
+  margin-bottom: 20px;
+  background-color: #eee;
+}
+
+@media (max-width: 991px) {
+  div.col-md-10.xp_items,
+  div.col-md-5.xp_headings_details,
+  h4.xp_heading_details,
+  h5.xp_subheading {
+    text-align: left;
+    font-weight: 400;
+  }
+}
